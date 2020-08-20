@@ -27,6 +27,7 @@ reset.css
 ### JS
 
 Используем только:
+
 <https://owlcarousel2.github.io/OwlCarousel2/> для слайдеров
 ***
 <https://fancyapps.com/fancybox/3/> для увеличения картинок или видео во всплывающем окне (для попапв с формами или текстом не используем)
