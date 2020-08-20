@@ -1,5 +1,4 @@
 <?php
-    //получаем наши переменные.
     $name = $_POST['name']);
     $tel = $_POST['tel'];
     $form_name = $_POST['form_name'];
