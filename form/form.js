@@ -1,6 +1,6 @@
 $('form').submit(function () {
-    var name = $(this).find('input[type=hidden]').val();
-    var tel = $(this).find('input[type=tel]').val();
+    var name = $(this).find('input[name=name]').val();
+    var tel = $(this).find('input[name=tel]').val();
     $.ajax({
         url: "/sendmail.php",
         type: "post",
@@ -8,7 +8,7 @@ $('form').submit(function () {
         data: {
             "name": name,
             "tel": tel
-        }, 
+        },
         success: function (data) {}
     });
     alert("Сообщение отправлено");
