@@ -8,7 +8,7 @@ $('form').submit(function () {
         data: {
             "name": name,
             "tel": tel
-        },
+        }, 
         success: function (data) {}
     });
     alert("Сообщение отправлено");
