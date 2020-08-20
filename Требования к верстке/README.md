@@ -19,7 +19,8 @@ reset.css
   margin: 0;
   padding: 0;
   outline: none;
-  box-sizing: border-box;}
+  box-sizing: border-box;
+}
 ```
 В основном этого хватает что бы сбросить стили браузеров
 
