@@ -1,5 +1,5 @@
 <?php
-if ((isset($_POST['name'])) && (isset($_POST['tel'])) &&) {
+if ((isset($_POST['name'])) && (isset($_POST['tel']))) {
   $name = $_POST['name'];
   $tel = $_POST['tel'];
   $headers= "MIME-Version: 1.0\r\n";
