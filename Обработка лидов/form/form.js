@@ -1,4 +1,4 @@
-$('form').submit(function () {
+$('form').submit(function() {
   var name = $(this).find('input[name=name]').val();
   var tel = $(this).find('input[name=tel]').val();
   $.ajax({
@@ -8,9 +8,9 @@ $('form').submit(function () {
       'name': name,
       'tel': tel
     },
-    success: function (response) {
+    success: function(response) {
       var jsonData = JSON.parse(response);
-      if (jsonData.success == '1'){
+      if (jsonData.success == '1') {
         alert('Сообщение отправлено');
       } else if (jsonData.success == '0') {
         alert('Заполните все поля');
@@ -20,4 +20,4 @@ $('form').submit(function () {
     }
   });
   return false;
-})
+});
