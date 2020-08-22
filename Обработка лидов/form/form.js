@@ -11,7 +11,7 @@ $('form').submit(function () {
     success: function (response) {
       var jsonData = JSON.parse(response);
       console.log(jsonData);
-      console.log(jsonData.success);
+      console.log(jsonData.success)
       if (jsonData.success == '1'){
         alert('Сообщение отправлено');
       } else if (jsonData.success == '0') {
