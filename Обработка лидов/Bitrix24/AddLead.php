@@ -1,5 +1,5 @@
 <?php
-  $name = $_POST['name']);
+  $name = $_POST['name'];
   $tel = $_POST['tel'];
   $form_name = $_POST['form_name'];
 
